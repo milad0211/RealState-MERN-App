@@ -1,6 +1,6 @@
 import { timeStamp } from "console";
 import mongoose, { mongo } from "mongoose";
-const userSchema = mongoose.Schema({
+const userSchema = new mongoose.Schema({
     username:{
         type:String,
         reauire:true,
