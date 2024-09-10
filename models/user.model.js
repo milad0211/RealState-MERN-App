@@ -4,18 +4,18 @@ const userSchema = new mongoose.Schema({
     username:{
         type:String,
         reauire:true,
-        unique:true,
+        uniqued:true,
     },
     email:{
         type:String,
-        reauire:true,
+        reauired:true,
         unique:true,
     },
     password :{
         type:String,
-        reauire:true,
+        required:true,
     }
-},{timeStamp:true});
+},{timestamps:true});
 
 const User = mongoose.model('User',userSchema)
 export default User;
