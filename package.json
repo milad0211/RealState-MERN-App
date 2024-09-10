@@ -1,0 +1,17 @@
+{
+  "name": "realestate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev":"nodemon api/index.js",
+    "start":"node api/index.js"
+  },
+  "author": "Milad",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.20.0",
+    "nodemon": "^3.1.4"
+  }
+}
